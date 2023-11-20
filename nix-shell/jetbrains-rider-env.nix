@@ -23,6 +23,5 @@ pkgs.mkShell {
         
         # initialize dotnet
         dotnet new tool-manifest --force;
-        dotnet tool install dotnet-ef;
     '';
 }
